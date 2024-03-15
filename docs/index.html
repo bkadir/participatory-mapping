@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>A Minimum Viable Participatory Mapping Project</title>
+    <title>UW Study Spots</title>
     <script src="https://unpkg.com/maplibre-gl@3.1.0/dist/maplibre-gl.js"></script>
     <link href="https://unpkg.com/maplibre-gl@3.1.0/dist/maplibre-gl.css" rel="stylesheet" />
     <!-- Styles for the map and popup -->
@@ -65,18 +65,15 @@
     <!-- Information box -->
     <div id="info">
         <h3>A Minimum Viable Participatory Mapping Project</h3>
-        <h4>Bo Zhao | University of Washington </h4>
+        <h4>Badria Kadir | University of Washington </h4>
         <!-- Introduction to the participatory mapping solution -->
         <p>
-            This map is a minimum viable solution to participatory mapping.
-            Users can contribute their local knowledge by clicking on the map,
-            submitting their information, and viewing it represented as a red dot.
-            Existing contributions can also be viewed as red dots. While this map only offers
-            basic functionality, it can be expanded or repurposed to build your own participatory mapping projects. To help you envision what this map can assist you, you can take a look at a few existing projects, such as <a href="https://hgis.uw.edu/lgbtqspaces/" target="_blank"><b>Shifting LGBTQ+ spaces</b></a>,
-            <a href="https://hgis.uw.edu/chop"> <b>Archiving the CHOP</b></a> and <a href="https://www.queeringthemap.com/" target="_blank"><b>Queering the Map</b></a>.
-            An instruction can be found 
-            <a href="https://www.github.com/jakobzhao/participatory-mapping" target="_blank">here</a>.
-            <i>Last update: June 23, 2023</i>
+            This participatory map is a collaborative effort to map out the best study 
+            spots within the University of Washington (UW) area, driven by the insights 
+            and recommendations of fellow students. Designed for and by students, this map aims to provide a 
+            comprehensive resource for finding the perfect study environment on campus. 
+            
+            <i>Last update: March 13, 2024</i>
         </p> 
     </div>
     
@@ -95,9 +92,9 @@
         let map = new maplibregl.Map({
             container: 'map', // container id
             style: 'https://api.maptiler.com/maps/streets-v2/style.json?key=Cusoe5zmfmn26glFoeoe', // style URL
-            center: [-122.3321, 47.6062], // starting position [lng, lat]
+            center: [-122.3093, 47.6547], // starting position [lng, lat]
             // pitch: 45, // pitch in degrees
-            zoom: 12 // starting zoom
+            zoom: 16// starting zoom
         });
 
         // Fetch existing records when the window is loaded
@@ -229,3 +226,4 @@
 </body>
 
 </html>
+
