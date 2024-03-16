@@ -8,6 +8,9 @@ and recommendations of fellow students. Designed for and by students, this map a
 comprehensive resource for finding the perfect study environment on campus. 
 
 
+[Access map here](http://127.0.0.1:5501/docs/index.html)
+
+
 
  
   
