@@ -6,5 +6,9 @@ const port = process.env.PORT || 3000;
 
 // Start the server and listen on the specified port
 app.listen(port, () => {
-  console.log('application running on', port);
+  console.log('application running on', port); 
 });
+
+const cors = require('cors');
+app.use(cors({
+  origin: 'https://uw-spots-9ae49a00de1a.herokuapp.com/'}));
